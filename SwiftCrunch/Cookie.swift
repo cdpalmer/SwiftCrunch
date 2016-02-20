@@ -35,19 +35,24 @@ enum CookieType: Int, CustomStringConvertible {
     }
 }
 
-class Cookie: CustomStringConvertible {
+class Cookie: CustomStringConvertible, Hashable {
     var column: Int
     var row: Int
     let cookieType: CookieType
     var sprite: SKSpriteNode?  // Makes it an optional attribute.
+    var description: String {
+        return "type:\(cookieType) square:(\(column),\(row))"}
+    var hashValue: Int {
+        return row*10 + column}
     
     init(column: Int, row: Int, cookieType: CookieType) {
         self.column = column
         self.row = row
         self.cookieType = cookieType
     }
-    
-    var description: String {
-        return "type:\(cookieType) square:(\(column),\(row))"
-    }
+}
+
+// So that you can compare two objects to one another
+func ==(lhs: Cookie, rhs: Cookie) -> Bool {
+    return lhs.column == rhs.column && lhs.row == rhs.row
 }

@@ -18,6 +18,7 @@
 		B7A18C911C780CB100651D34 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C901C780CB100651D34 /* Sprites.atlas */; };
 		B7A18C931C780F3100651D34 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C921C780F3100651D34 /* Cookie.swift */; };
 		B7A18C951C78127600651D34 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C941C78127600651D34 /* Array2D.swift */; };
+		B7A18C971C7816A700651D34 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C961C7816A700651D34 /* Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B7A18C901C780CB100651D34 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		B7A18C921C780F3100651D34 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		B7A18C941C78127600651D34 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		B7A18C961C7816A700651D34 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				B7A18C641C7809F900651D34 /* GameViewController.swift */,
 				B7A18C921C780F3100651D34 /* Cookie.swift */,
 				B7A18C941C78127600651D34 /* Array2D.swift */,
+				B7A18C961C7816A700651D34 /* Level.swift */,
 				B7A18C661C7809F900651D34 /* Main.storyboard */,
 				B7A18C691C7809F900651D34 /* Assets.xcassets */,
 				B7A18C6B1C7809F900651D34 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A18C971C7816A700651D34 /* Level.swift in Sources */,
 				B7A18C631C7809F900651D34 /* GameScene.swift in Sources */,
 				B7A18C931C780F3100651D34 /* Cookie.swift in Sources */,
 				B7A18C651C7809F900651D34 /* GameViewController.swift in Sources */,
