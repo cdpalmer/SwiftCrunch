@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B7A18C5F1C7809F900651D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C5E1C7809F900651D34 /* AppDelegate.swift */; };
-		B7A18C611C7809F900651D34 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C601C7809F900651D34 /* GameScene.sks */; };
 		B7A18C631C7809F900651D34 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C621C7809F900651D34 /* GameScene.swift */; };
 		B7A18C651C7809F900651D34 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C641C7809F900651D34 /* GameViewController.swift */; };
 		B7A18C681C7809F900651D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C661C7809F900651D34 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		B7A18C6D1C7809F900651D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C6B1C7809F900651D34 /* LaunchScreen.storyboard */; };
 		B7A18C781C7809F900651D34 /* SwiftCrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C771C7809F900651D34 /* SwiftCrunchTests.swift */; };
 		B7A18C831C7809FA00651D34 /* SwiftCrunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C821C7809FA00651D34 /* SwiftCrunchUITests.swift */; };
+		B7A18C911C780CB100651D34 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C901C780CB100651D34 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		B7A18C5B1C7809F900651D34 /* SwiftCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A18C5E1C7809F900651D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7A18C601C7809F900651D34 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		B7A18C621C7809F900651D34 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B7A18C641C7809F900651D34 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B7A18C671C7809F900651D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		B7A18C7E1C7809F900651D34 /* SwiftCrunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCrunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A18C821C7809FA00651D34 /* SwiftCrunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCrunchUITests.swift; sourceTree = "<group>"; };
 		B7A18C841C7809FA00651D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A18C901C780CB100651D34 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 		B7A18C5D1C7809F900651D34 /* SwiftCrunch */ = {
 			isa = PBXGroup;
 			children = (
+				B7A18C901C780CB100651D34 /* Sprites.atlas */,
 				B7A18C5E1C7809F900651D34 /* AppDelegate.swift */,
-				B7A18C601C7809F900651D34 /* GameScene.sks */,
 				B7A18C621C7809F900651D34 /* GameScene.swift */,
 				B7A18C641C7809F900651D34 /* GameViewController.swift */,
 				B7A18C661C7809F900651D34 /* Main.storyboard */,
@@ -235,10 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A18C611C7809F900651D34 /* GameScene.sks in Resources */,
 				B7A18C6D1C7809F900651D34 /* LaunchScreen.storyboard in Resources */,
 				B7A18C6A1C7809F900651D34 /* Assets.xcassets in Resources */,
 				B7A18C681C7809F900651D34 /* Main.storyboard in Resources */,
+				B7A18C911C780CB100651D34 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
