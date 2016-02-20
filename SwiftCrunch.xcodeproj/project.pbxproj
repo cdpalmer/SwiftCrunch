@@ -17,6 +17,7 @@
 		B7A18C831C7809FA00651D34 /* SwiftCrunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C821C7809FA00651D34 /* SwiftCrunchUITests.swift */; };
 		B7A18C911C780CB100651D34 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C901C780CB100651D34 /* Sprites.atlas */; };
 		B7A18C931C780F3100651D34 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C921C780F3100651D34 /* Cookie.swift */; };
+		B7A18C951C78127600651D34 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C941C78127600651D34 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B7A18C841C7809FA00651D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7A18C901C780CB100651D34 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		B7A18C921C780F3100651D34 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		B7A18C941C78127600651D34 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				B7A18C621C7809F900651D34 /* GameScene.swift */,
 				B7A18C641C7809F900651D34 /* GameViewController.swift */,
 				B7A18C921C780F3100651D34 /* Cookie.swift */,
+				B7A18C941C78127600651D34 /* Array2D.swift */,
 				B7A18C661C7809F900651D34 /* Main.storyboard */,
 				B7A18C691C7809F900651D34 /* Assets.xcassets */,
 				B7A18C6B1C7809F900651D34 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				B7A18C931C780F3100651D34 /* Cookie.swift in Sources */,
 				B7A18C651C7809F900651D34 /* GameViewController.swift in Sources */,
 				B7A18C5F1C7809F900651D34 /* AppDelegate.swift in Sources */,
+				B7A18C951C78127600651D34 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
