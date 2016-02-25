@@ -19,6 +19,9 @@
 		B7A18C931C780F3100651D34 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C921C780F3100651D34 /* Cookie.swift */; };
 		B7A18C951C78127600651D34 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C941C78127600651D34 /* Array2D.swift */; };
 		B7A18C971C7816A700651D34 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C961C7816A700651D34 /* Level.swift */; };
+		B7A18C991C7EA60B00651D34 /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = B7A18C981C7EA60B00651D34 /* Levels */; };
+		B7A18C9B1C7EA67900651D34 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C9A1C7EA67900651D34 /* Tile.swift */; };
+		B7A18C9D1C7EE35400651D34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A18C9C1C7EE35400651D34 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		B7A18C921C780F3100651D34 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		B7A18C941C78127600651D34 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		B7A18C961C7816A700651D34 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		B7A18C981C7EA60B00651D34 /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Levels; sourceTree = "<group>"; };
+		B7A18C9A1C7EA67900651D34 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = ../Tile.swift; sourceTree = "<group>"; };
+		B7A18C9C1C7EE35400651D34 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +116,14 @@
 				B7A18C901C780CB100651D34 /* Sprites.atlas */,
 				B7A18C5E1C7809F900651D34 /* AppDelegate.swift */,
 				B7A18C621C7809F900651D34 /* GameScene.swift */,
+				B7A18C9A1C7EA67900651D34 /* Tile.swift */,
 				B7A18C641C7809F900651D34 /* GameViewController.swift */,
 				B7A18C921C780F3100651D34 /* Cookie.swift */,
 				B7A18C941C78127600651D34 /* Array2D.swift */,
 				B7A18C961C7816A700651D34 /* Level.swift */,
+				B7A18C9C1C7EE35400651D34 /* Extensions.swift */,
 				B7A18C661C7809F900651D34 /* Main.storyboard */,
+				B7A18C981C7EA60B00651D34 /* Levels */,
 				B7A18C691C7809F900651D34 /* Assets.xcassets */,
 				B7A18C6B1C7809F900651D34 /* LaunchScreen.storyboard */,
 				B7A18C6E1C7809F900651D34 /* Info.plist */,
@@ -244,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A18C991C7EA60B00651D34 /* Levels in Resources */,
 				B7A18C6D1C7809F900651D34 /* LaunchScreen.storyboard in Resources */,
 				B7A18C6A1C7809F900651D34 /* Assets.xcassets in Resources */,
 				B7A18C681C7809F900651D34 /* Main.storyboard in Resources */,
@@ -275,6 +285,8 @@
 				B7A18C971C7816A700651D34 /* Level.swift in Sources */,
 				B7A18C631C7809F900651D34 /* GameScene.swift in Sources */,
 				B7A18C931C780F3100651D34 /* Cookie.swift in Sources */,
+				B7A18C9D1C7EE35400651D34 /* Extensions.swift in Sources */,
+				B7A18C9B1C7EA67900651D34 /* Tile.swift in Sources */,
 				B7A18C651C7809F900651D34 /* GameViewController.swift in Sources */,
 				B7A18C5F1C7809F900651D34 /* AppDelegate.swift in Sources */,
 				B7A18C951C78127600651D34 /* Array2D.swift in Sources */,
