@@ -9,7 +9,6 @@
 import Foundation
 
 extension Dictionary {
-    
     // Loads a JSON file from the app bundle into a new dictionary
     static func loadJSONFromBundle(filename: String) -> Dictionary<String, AnyObject>? {
         if let path = NSBundle.mainBundle().pathForResource(filename, ofType: "json") {
